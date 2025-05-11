@@ -1,16 +1,71 @@
 # OLX Form Clone
 
-A React TypeScript implementation of the OLX Post Ad form. This project replicates the look and feel of the form found at https://www.olx.in/en-in/post/attributes.
+A responsive React TypeScript application that replicates a real estate listing form with validation.
 
 ## Features
 
-- Category selection with a grid of options
-- Dynamic attribute fields based on selected category
-- Title and description input with character count
-- Price section with currency symbol and negotiable option
-- Photo uploader with preview and removal options
-- Location autocomplete with suggestions
-- Responsive design matching the OLX UI/UX
+- Complete real estate form with field validation
+- Responsive design for all device sizes
+- Interactive form elements (dropdowns, button groups)
+- Image upload and reordering with cover image functionality
+- Location selection with state, city, and neighborhood dropdowns
+- Form validation with error messages and visual indicators
+
+## Deployment on Vercel
+
+This project is configured for easy deployment on Vercel.
+
+### Manual Deployment
+
+1. Install the Vercel CLI:
+   ```
+   npm install -g vercel
+   ```
+
+2. Login to Vercel:
+   ```
+   vercel login
+   ```
+
+3. Deploy the project:
+   ```
+   vercel
+   ```
+
+### Automatic Deployment via GitHub
+
+1. Push the code to your GitHub repository.
+2. Import the project on Vercel dashboard: [https://vercel.com/new](https://vercel.com/new)
+3. Connect your GitHub repository
+4. Configure the project:
+   - Framework Preset: Vite
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+5. Click "Deploy" and Vercel will automatically build and deploy your application.
+
+## Development
+
+1. Install dependencies:
+   ```
+   npm install
+   ```
+
+2. Start development server:
+   ```
+   npm run dev
+   ```
+
+3. Build for production:
+   ```
+   npm run build
+   ```
+
+## Technologies Used
+
+- React 18
+- TypeScript
+- Styled Components
+- Vite
 
 ## Project Setup
 
