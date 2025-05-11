@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f4f5;
+  color: #002f34;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* OLX Colors */
+:root {
+  --primary-color: #002f34;
+  --accent-color: #23e5db;
+  --secondary-color: #23e5db;
+  --text-color: #002f34;
+  --border-color: #d8dfe0;
+  --bg-light: #f2f4f5;
+  --bg-white: #ffffff;
+  --error-color: #ff5050;
+} 
